@@ -3,6 +3,7 @@
 # file: 从尾到头打印链表
 
 class solution:
+
     def printListFromTailToHead(self, listNode):
         value_list = []
         while (listNode):
