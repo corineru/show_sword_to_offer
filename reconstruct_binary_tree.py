@@ -10,6 +10,7 @@ class TreeNode:
         self.right = None
 
 class solution:
+
     def reConstructBinaryTree(self, pre, tin):
         if len(pre)==0:
             return None
