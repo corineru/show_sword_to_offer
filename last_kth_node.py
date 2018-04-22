@@ -3,7 +3,8 @@
 # file: 求链表的倒数第k个节点
 
 class solution:
-    def FindKthToTail(self，head, k):
+
+    def FindKthToTail(self, head, k):
         # write code here
         node_list = []
         while (head):
