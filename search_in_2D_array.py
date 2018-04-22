@@ -2,10 +2,10 @@
 # xinru
 # file: 二维数组中的查找
 
-
-def Find(self, target, array):
-    # write code here
-    for i in array:
-        if target in i:
-            return True
-    return False
+class solution:
+    def Find(self, target, array):
+        # write code here
+        for i in array:
+            if target in i:
+                return True
+        return False

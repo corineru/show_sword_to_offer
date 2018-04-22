@@ -9,13 +9,13 @@ class TreeNode:
         self.left = None
         self.right = None
 
-
-def reConstructBinaryTree(self, pre, tin):
-    if len(pre)==0:
-        return None
-    if len(pre)==1:
-        return TreeNode(pre[0])
-    head = TreeNode(pre[0])
-    head.left = self.reConstructBinaryTree(pre[1:tin.index(pre[0])+1] ,tin[:tin.index(pre[0])])
-    head.right = self.reConstructBinaryTree(pre[tin.index(pre[0])+1:], tin[tin.index(pre[0]) +1:])
-    return head
+class solution:
+    def reConstructBinaryTree(self, pre, tin):
+        if len(pre)==0:
+            return None
+        if len(pre)==1:
+            return TreeNode(pre[0])
+        head = TreeNode(pre[0])
+        head.left = self.reConstructBinaryTree(pre[1:tin.index(pre[0])+1] ,tin[:tin.index(pre[0])])
+        head.right = self.reConstructBinaryTree(pre[tin.index(pre[0])+1:], tin[tin.index(pre[0]) +1:])
+        return head

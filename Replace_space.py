@@ -3,7 +3,8 @@
 # file: 替换空格
 
 
-def replaceSpace(self, s):
+class solution:
+    def replaceSpace(self, s):
     s_new = []
     for i in s:
         if i == ' ':

@@ -3,6 +3,6 @@
 # file: 求浮点数的n次方
 
 
-def Power(self, base, exponent):
+def Power(base, exponent):
     # write code here
     return pow(base, exponent)
