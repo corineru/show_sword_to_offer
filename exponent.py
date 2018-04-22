@@ -5,4 +5,5 @@
 
 def Power(base, exponent):
     # write code here
+
     return pow(base, exponent)
