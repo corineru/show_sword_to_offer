@@ -1,6 +1,6 @@
 # 2018-04-25
 # xinru
-# file:  ç
+# file:  找到最小的k个数
 
 class Solution:
     def GetLeastNumbers_Solution(self, tinput, k):
