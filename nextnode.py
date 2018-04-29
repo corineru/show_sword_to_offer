@@ -24,4 +24,5 @@ class Solution:
             tmp = pNode.next
             if tmp.left == pNode:
                 return tmp
+            pNode = pNode.next
         return None
