@@ -22,6 +22,6 @@ class Solution:
         #如果不存在，就去找作为左节点的父节点
         while pNode.next:
             tmp = pNode.next
-            if tmp.left = pNode:
+            if tmp.left == pNode:
                 return tmp
         return None
